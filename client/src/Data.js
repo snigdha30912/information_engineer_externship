@@ -19,8 +19,6 @@ export default function Data() {
   const classes = useStyles();
   const [data, setData] = useState([]);
   const [loading, setLoading] = useState(false);
-  const [currentPage, setCurrentPage] = useState(1);
-  const [videosPerPage, setVideosPerPage] = useState(9);
 
   // use effect to fetch the api data when the component mounts
   useEffect(() => {
