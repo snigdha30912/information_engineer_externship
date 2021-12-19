@@ -21,9 +21,6 @@ export default function OutlinedCard({ card , loading}) {
     Name : {card.name}
     </CCardText>
   </CCardBody>
-<CCardFooter>
-      <small className="text-medium-emphasis" style={{color:"blue"}}>Published At</small>
-    </CCardFooter>
 </CCard>
   );
 }
