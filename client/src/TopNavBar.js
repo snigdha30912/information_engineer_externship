@@ -7,6 +7,7 @@ import Typography from '@mui/material/Typography';
 import MenuIcon from '@mui/icons-material/Menu';
 
 // created top nav bar
+
 export default function TopNavBar() {
   
   return (
