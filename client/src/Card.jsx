@@ -5,7 +5,6 @@ import { CCard, CCardImage, CCardBody, CCardTitle, CCardText,CCardFooter,CButton
 /*
 Created the card component which displays the id, name in the form of cards
 */
-
 export default function OutlinedCard({ card , loading}) {
 
   if (loading) {
