@@ -23,7 +23,13 @@ const requestData = {
         name: "Item 5"
         }]
 } 
-    
+
+/*
+created a REST API which returns a JSON output, 
+containing a list of objects with id and name fields, 
+when a GET request is performed. We used Node.js to create the API endpoint. 
+*/
+
 app.get('/',(req,res)=>{
     res.send('Backend Module');
 });
